@@ -1,16 +1,16 @@
-import YOLO_small_tf
+import YOLO_face_tf
 import os
 import glob
 import sys
 import shutil
 
-yolo = YOLO_small_tf.YOLO_TF()
+yolo = YOLO_face_tf.YOLO_TF()
 
 batch_size = 30
 
-image_path = "D:\data\main_image\image\processing\dabainsang\dataset\main_image"
+image_path = "D:\data\main_image\image\processing\dabainsang\dataset\main_image_not_person"
 
-not_person_path = "D:\data\main_image\image\processing\dabainsang\dataset\main_image_not_person"
+not_person_path = "D:\data\main_image\image\processing\dabainsang\dataset\main_image_not_person_face"
 if not os.path.isdir(not_person_path):
     os.makedirs(not_person_path)
 

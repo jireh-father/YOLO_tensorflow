@@ -208,7 +208,7 @@ class YOLO_TF:
         self.detect_from_cvmats(img_list)
 
     def is_person_from_files(self, filename_list):
-        if self.disp_console: print('Detect from ' + ','.join(filename_list))
+        # if self.disp_console: print('Detect from ' + ','.join(filename_list))
         img_list = [cv2.imread(filename) for filename in filename_list]
         return self.is_persons_from_cvmats(img_list)
 
