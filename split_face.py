@@ -8,9 +8,9 @@ yolo = YOLO_face_tf.YOLO_TF()
 
 batch_size = 30
 
-image_path = "D:\data\main_image\image\processing\dabainsang\split\main_image\main_image_not_person"
+image_path = "D:\data\main_image\image\processing\dabainsang\split\main_image\main_image"
 
-not_person_path = "D:\data\main_image\image\processing\dabainsang\split\main_image\main_image_not_person_face"
+not_person_path = "D:\data\main_image\image\processing\dabainsang\split\main_image\main_image_face"
 if not os.path.isdir(not_person_path):
     os.makedirs(not_person_path)
 
